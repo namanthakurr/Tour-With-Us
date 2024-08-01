@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
-import slidesData from '../Rajasthan/SlidesData';
+import { GujratSlidesData } from '../Rajasthan/SlidesData';
 import GujratCardSlider from './GujratCardSlider';
 import CardsGujrat from './CardsGujrat';
 
@@ -81,7 +81,7 @@ function  Gujrat() {
             <CardsGujrat/>
             <GujratCardSlider
                 title="Best Selling Rajasthan Tour Packages"
-                slides={slidesData}
+                slides={GujratSlidesData}
             />
         </>
     );

@@ -7,7 +7,7 @@ import CardsRajasthan from './CardsRajasthan';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import CardSlider from './CardSlider';
-import slidesData from './SlidesData';
+import { RajasthanSlidesData } from './SlidesData';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -80,7 +80,7 @@ function Rajasthan() {
             <CardsRajasthan />
             <CardSlider
                 title="Best Selling Rajasthan Tour Packages"
-                slides={slidesData}
+                slides={RajasthanSlidesData}
             />
         </>
     );
