@@ -10,13 +10,18 @@ import DifferentTous from "./Project/DifferentTous.js";
 import Information from "./Project/Information.js";
 import Bali from "./RouterComponent/Bali.js";
 import Australia from "./RouterComponent/Australia.js";
+import Rajasthan from "./Rajasthan/Rajasthan.jsx";
+
+import CardsRajasthan from "./Rajasthan/CardsRajasthan.jsx";
 
 function App() {
   return (
     <div>
-     
+      <Rajasthan/>
+      
+      {/* <CardsRajasthan /> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<NAveeeee />} />
           <Route path="/bali" element={<Bali />} />
@@ -26,7 +31,7 @@ function App() {
         <Footer />
         <DifferentTous />
         <Information />
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }

@@ -53,7 +53,7 @@ function NAveeeee() {
                     Home
                   </Nav.Link>
                   <NavDropdown title='International Holidays' id='basic-nav-dropdown-link'>
-                    <NavDropdown.Item href='#'>Bali</NavDropdown.Item>
+                    <NavDropdown.Item href='/bali'>Bali</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Dubai</NavDropdown.Item>
                     <NavDropdown.Item href='#'>Thailand</NavDropdown.Item>
                     <NavDropdown.Item href='#'>London</NavDropdown.Item>
