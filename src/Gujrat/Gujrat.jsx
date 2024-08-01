@@ -1,17 +1,18 @@
 import React, { useRef, useEffect } from 'react';
 import { useCollapse } from 'react-collapsed';
-import styles from './Rajasthan.module.css';
+import  styles from '../Rajasthan/Rajasthan.module.css'
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import CardsRajasthan from './CardsRajasthan';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import CardSlider from './CardSlider';
-import slidesData from './SlidesData';
+
+import slidesData from '../Rajasthan/SlidesData';
+import GujratCardSlider from './GujratCardSlider';
+import CardsGujrat from './CardsGujrat';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Rajasthan() {
+function  Gujrat() {
     const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
     const description = useRef(null);
 
@@ -77,8 +78,8 @@ function Rajasthan() {
                     </div>
                 </div>
             </center>
-            <CardsRajasthan />
-            <CardSlider
+            <CardsGujrat/>
+            <GujratCardSlider
                 title="Best Selling Rajasthan Tour Packages"
                 slides={slidesData}
             />
@@ -86,4 +87,4 @@ function Rajasthan() {
     );
 }
 
-export default Rajasthan;
+export default Gujrat;

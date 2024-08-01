@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./Rajasthan.module.css";
-import FlipCardsSection from "./FlipCardsSection";
- import { RajasthanCardData } from "./CardData";
+import  styles from '../Rajasthan/Rajasthan.module.css'
+import FlipCardsSection from "../Rajasthan/FlipCardsSection"; 
+ import { GujratCardData } from "../Rajasthan/CardData";
 
-function Cards_Rajasthan() {
+function Cards_Gujrat() {
   return (
     <div className="container">
       <center>
@@ -14,11 +14,11 @@ function Cards_Rajasthan() {
           <div className={styles.rajasthan_Pattern}>
             <img src="/images/Rajasthan_img/Rajasthan-Petterns.png" alt="Rajasthan-Pattern" />
           </div>
-          <FlipCardsSection cards={RajasthanCardData} />
+          <FlipCardsSection cards={GujratCardData} />
         </section>
       </center>
     </div>
   );
 }
 
-export default Cards_Rajasthan;
+export default  Cards_Gujrat;

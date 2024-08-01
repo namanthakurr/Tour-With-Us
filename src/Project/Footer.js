@@ -24,7 +24,7 @@ function Footer() {
           </p>
         </div>
         <div className="verma-image" >
-            <img src="footerlogo.gif" className="gif" alt="" />
+            <img src="footerlogo.gif" className="gif" alt="daal dunga" />
             
         </div>
       </div>
