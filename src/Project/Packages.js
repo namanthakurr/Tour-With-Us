@@ -8,11 +8,21 @@ function Packages() {
         <span>budget</span>
 
         <div className="prices">
-          <img src="50.jpg" alt="" />
-          <img src="1l.jpg" alt="" />
-          <img src="1.5.jpg" alt="" />
-          <img src="2.jpg" alt="" />
-          <img src="3.jpg" alt="" />
+        <div><h1>Below </h1>
+        10K
+        </div>
+        <div><h1>Below </h1>
+        20K
+        </div>
+        <div><h1>Below </h1>
+        30K
+        </div>
+        <div><h1>Below </h1>
+        40K
+        </div>
+        <div><h1>Below </h1>
+        50K
+        </div>
         </div>
       </div>
     </div>

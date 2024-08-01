@@ -14,20 +14,20 @@ function Vacation() {
               </p>
             </div>
             <div className='image-container'>
-              <img src="#" alt='coming soon...' className='image'/>
+              <img src="coupls.jpg" alt='coming soon...' className='image'/>
               <p>COUPLE</p>
             </div>
             <div className='image-container'>
-              <img src="#" alt='coming soon...' className='image' />
+              <img src="familyy.jpg" alt='coming soon...' className='image' />
               <p>FAMILY</p>
             </div>
             <div className='image-container'>
-              <img src="#" alt='coming soon...' className='image' />
+              <img src="freinds.jpg" alt='coming soon...' className='image' />
               <p>FRIENDS</p>
             </div>
             <div className='image-container'>
-              <img src="#" alt='coming soon...' className='image' />
-              <p>TEAM OUTING</p>
+              <img src="strangers.jpg" alt='coming soon...' className='image' />
+              <p>Strangers</p>
             </div>
           </div>
           

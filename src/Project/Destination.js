@@ -5,31 +5,31 @@ function Destination() {
     <>
       <div className="Destination">
         <div className="Destination-info">
-          <div className="HEADER">
-            <h3>QUICK GETAWAY DESTINATIONS</h3>
-            <p>Ideal for 3-5 days trip</p>
-          </div>
+        <div className="HEADER">
+    <h3>QUICK GETAWAY DESTINATIONS</h3>
+    <p>Ideal for 2-3 or 3-5 days trip</p>
+  </div>
           <div className="Countries-Distribution">
-            <div className="Maldives">
+            <div className="Ujjain">
               <img
-                src="#"
+                src="mahakal.jpg"
                 alt="coming soon..."
                 style={{
                   width: "420px",
                   height: "200px",
-                  borderRadius: "20px",
+                  borderRadius: "50px",
                 }}
               />
               <p className="Info">
-                MALDIVES
+                Ujjain
                 <p>
-                  From <span>&#8377;</span> 89,999/-
+                  From <span>&#8377;</span> 13,999/-
                 </p>
               </p>
               <div className="MAld">
                 <div>
                   <img
-                    src="#"
+                    src="udaipur.jpg"
                     alt="coming soon..."
                     style={{
                       width: "200px",
@@ -38,15 +38,15 @@ function Destination() {
                     }}
                   />
                   <p className="Info-1">
-                    BAHRAIN
+                    Udaipur
                     <p>
-                      From <span>&#8377;</span> 55,555/-
+                      From <span>&#8377;</span> 19,555/-
                     </p>
                   </p>
                 </div>
                 <div>
                   <img
-                    src="#"
+                    src="darjeeling.jpg"
                     alt="coming soon..."
                     style={{
                       width: "200px",
@@ -55,9 +55,9 @@ function Destination() {
                     }}
                   />
                   <p className="Info-2">
-                    PARIS
+                    Darjeeling
                     <p>
-                      From <span>&#8377;</span> 1,25,000/-
+                      From <span>&#8377;</span> 35,000/-
                     </p>
                   </p>
                 </div>
@@ -65,7 +65,7 @@ function Destination() {
             </div>
             <div className="LA">
               <img
-                src="#"
+                src="lucknow.jpg"
                 alt="coming soon..."
                 style={{
                   width: "342px",
@@ -74,16 +74,16 @@ function Destination() {
                 }}
               />
               <p className="Info-3">
-                LA
+                Lucknow
                 <p>
-                  From <span>&#8377;</span> 94,999/-
+                  From <span>&#8377;</span> 18,999/-
                 </p>
               </p>
             </div>
             <div className="Mexico">
               <div>
                 <img
-                  src="#"
+                  src="chandigarh.jpg"
                   alt="coming soon..."
                   style={{
                     width: "360px",
@@ -92,15 +92,15 @@ function Destination() {
                   }}
                 />
                 <p className="Info-4">
-                  MEXICO
+                  Chandigarh
                   <p>
-                    From <span>&#8377;</span> 70,899/-
+                    From <span>&#8377;</span> 23,899/-
                   </p>
                 </p>
               </div>
               <div>
                 <img
-                  src="#"
+                  src="mysore.jpg"
                   alt="coming soon..."
                   style={{
                     width: "360px",
@@ -109,9 +109,9 @@ function Destination() {
                   }}
                 />
                 <p className="Info-5">
-                  SPAIN
+                  Mysore
                   <p>
-                    From <span>&#8377;</span> 84,999/-
+                    From <span>&#8377;</span> 10,999/-
                   </p>
                 </p>
               </div>

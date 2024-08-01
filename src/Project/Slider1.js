@@ -8,12 +8,7 @@ import { Link } from "react-router-dom";
 function Slider1() {
   return (
     <div
-      style={{
-        paddingTop: "500px",
-        paddingLeft: "10rem",
-        paddingRight: "10rem",
-        height: "860px",
-      }}
+     className="mm"
     >
       <Swiper
         slidesPerView={3}
@@ -22,94 +17,93 @@ function Slider1() {
         modules={[Pagination]}
         className="mySwiper"
       >
+     <SwiperSlide className="swiper-slide" style={{ height: "280px", width: "280px" }}>
+    <Link to="/">
+      <img
+        src="ladakh.jpg"
+        alt="coming soon..."
+      />
+      <p className="content" style={{ fontSize: "24px" }}>Ladakh</p>
+    </Link>
+  </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="jandk.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>BALI</p>
+            <p  className="content" style={{    fontSize: "24px" }}>jammu&Kashmir</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="handp.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>AUSTRALIA</p>
+            <p  className="content" style={{  fontSize: "24px" }}>Himachal Pradesh</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="meghalaya.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>BRAZIL</p>
+            <p  className="content" style={{fontSize: "24px" }}>Meghalaya</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="mp.jpeg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>SOUTH AFRICA</p>
+            <p  className="content" style={{ fontSize: "24px" }}>MadhyaPradesh</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="gujrat.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>MALDIVES</p>
+            <p  className="content" style={{ fontSize: "24px" }}>Gujrat</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="keral.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>VIETNAM</p>
+            <p  className="content" style={{ fontSize: "24px"  }}>Keral</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="tamilnadu.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>GREECE</p>
+            <p  className="content" style={{ fontSize: "24px"  }}>TamilNadu</p>
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
           <Link to="/">
             <img
-              src="#"
+              src="up.jpg"
               alt="coming soon..."
               style={{ borderRadius: "30px" }}
             />
-            <p style={{ color: "black", fontWeight: "600" }}>RUSSIA</p>
-          </Link>
-        </SwiperSlide>
-        <SwiperSlide style={{ height: "280px", width: "280px" }}>
-          <Link to="/">
-            <img
-              src="#"
-              alt="coming soon..."
-              style={{ borderRadius: "30px" }}
-            />
-            <p style={{ color: "black", fontWeight: "600" }}>JAPAN</p>
+            <p  className="content" style={{ fontSize: "24px"  }}>UttarPradesh</p>
           </Link>
         </SwiperSlide>
       </Swiper>

@@ -1,38 +1,85 @@
-// NAveeeee.jsx
+/* eslint-disable */
 
 import React from 'react';
 import Mountain from '../video/Mountain.mp4';
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import Button from 'react-bootstrap/Button';
 import Slider1 from "./Slider1.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Destination from "./Destination.js";
-import Vacation from "./Vacation.js";
+// import Vacation from "./Vacation.js";
 import Youtube from "./Youtube.js";
 import Packages from "./Packages.js";
 import Discount from "./Discount.js";
 import Review from "./Review.js";
+import Dialogue from './Dialogue.js';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function NAveeeee() {
   return (
     <>
-
-
+     
+     <div class="navbar-container">
+        <nav>
+            <div class="navbar-links">
+                <p class="nav-item">Home</p>
+                <div class="nav-item dropdown">
+                    <p>North</p>
+                    <div class="dropdown-content">
+                        <p>Ladakh</p>
+                        <p>Jammu&Kashmir</p>
+                        <p>Himachal Pradesh</p>
+                        <p>Uttarakhand</p>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <p>West</p>
+                    <div class="dropdown-content">
+                        <p>Rajasthan</p>
+                        <p>Gujrat</p>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <p>Central</p>
+                    <div class="dropdown-content">
+                        <p>Madhya pradesh</p>
+                        <p>Maharshtra</p>
+                        <p>Daman&Diu</p>
+                        <p>Odisha</p>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <p>East</p>
+                    <div class="dropdown-content">
+                    <p>Sikkim</p>
+                        <p>West Bengal</p>
+                        <p>Assam</p>
+                        <p>Odisha</p>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <p>South</p>
+                    <div class="dropdown-content">
+                        <p>Goa</p>
+                        <p>Karnataka</p>
+                        <p>Keral</p>
+                        <p>Andhra Pradesh</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
       <div className='video-container'>
 
         <video src={Mountain} autoPlay loop muted className='video' />
 
         <div className='text-overlay'>
           <h1 className='overlay-text'>
-            Plan your exciting and stress-free tour with us
+            Tour With US
           </h1>
+          <p className='India'>Incredible India</p>
         </div>
 
+<<<<<<< Updated upstream
         <div className='search-container'>
           <Form className='d-flex'>
             <FormControl type='search' placeholder='Search countries, cities' className='me-2 custom-input' aria-label='Search' />
@@ -100,15 +147,31 @@ function NAveeeee() {
             <div>24x7 Concierge</div>
           </div>
         </div>
+=======
+        
+>>>>>>> Stashed changes
       </div>
+      <div className="india-intro">
+        <h2>Discover the Magic of Incredible India</h2>
+        <p>Discover the magic of <span>Incredible India</span>, 
+        a land where ancient traditions and modern marvels coexist in harmony. 
+        From the majestic Himalayas in the north to the serene backwaters of Kerala in the south, India's 
+        diverse landscapes offer something for every traveler. Explore the rich cultural heritage in cities like Delhi, Jaipur, 
+        and Varanasi, where history comes alive in vibrant festivals and timeless monuments. 
+        Savor the diverse cuisine, from spicy street food to royal delicacies, reflecting India's culinary depth.
+         Wander through bustling markets, tranquil temples, and lush national parks teeming with wildlife. Whether you seek adventure,
+         spirituality, or relaxation, India promises an unforgettable journey. Embrace the warmth of its people and
+          the richness of its traditions. Come, experience the unparalleled beauty and vibrant spirit of <span>Incredible India</span>!</p>
+    </div>
 
       <Slider1 />
       <Destination />
-      <Vacation />
+      <Dialogue/>
+      {/* <Vacation /> */}
       <Packages />
       <Youtube />
-      <Discount />
       <Review />
+      <Discount />
     </>
   );
 }

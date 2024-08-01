@@ -1,18 +1,24 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+ 
+ 
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import NAveeeee from "./Project/NAveeeee.jsx";
 
 import Footer from "./Project/Footer.js";
-import DifferentTous from "./Project/DifferentTous.js";
+ 
 import Information from "./Project/Information.js";
+<<<<<<< Updated upstream
 import Bali from "./RouterComponent/Bali.js";
 import Australia from "./RouterComponent/Australia.js";
 import Rajasthan from "./Rajasthan/Rajasthan.jsx";
 
 import CardsRajasthan from "./Rajasthan/CardsRajasthan.jsx";
+=======
+ 
+>>>>>>> Stashed changes
 
 function App() {
   return (
@@ -24,14 +30,18 @@ function App() {
       {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<NAveeeee />} />
-          <Route path="/bali" element={<Bali />} />
-          <Route path="/australia" element={<Australia />} />
         </Routes>
 
-        <Footer />
-        <DifferentTous />
+        <Footer />  
         <Information />
+<<<<<<< Updated upstream
       </BrowserRouter> */}
+=======
+      </BrowserRouter>
+
+ 
+       
+>>>>>>> Stashed changes
     </div>
   );
 }

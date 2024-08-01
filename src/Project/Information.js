@@ -24,7 +24,7 @@ function Information() {
         </div>
         <div className="text">
         <div className="headingg">  <p >Talk to us</p></div>
-          <p>planners@pickyourtrail.com</p>
+          <p>Tour-With-Us@explore.com</p>
           <p>+919360991166</p>
           <p>+919080601268</p>
         </div>
