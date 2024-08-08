@@ -374,7 +374,9 @@ const KarnatakaSlidesData = [
   ];
   
 
-export { RajasthanSlidesData, GujratSlidesData, MPSlidesData, MaharashtraSlidesData, DamanSlidesData, GoaSlidesData , KeralaSlidesData, KarnatakaSlidesData, AndhraPradeshSlidesData, MeghalayaSlidesData, UttarPradeshSlidesData};
+
+
+
 const LadakhSlidesData = [
   {
     image: '/images/Ladakh_img/Leh-Tour.jpg',
@@ -677,4 +679,5 @@ const TamilNaduSlidesData = [
   }
 ];
 
-export { RajasthanSlidesData, GujratSlidesData, LadakhSlidesData, JammuAndKashmirSlidesData, HimachalPradeshSlidesData, UttarakhandSlidesData, SikkimSlidesData, WestBengalSlidesData, AssamSlidesData, OdishaSlidesData, TamilNaduSlidesData };
+export { RajasthanSlidesData, GujratSlidesData, MPSlidesData, MaharashtraSlidesData, DamanSlidesData, GoaSlidesData , KeralaSlidesData, KarnatakaSlidesData, AndhraPradeshSlidesData, MeghalayaSlidesData, UttarPradeshSlidesData,   LadakhSlidesData, JammuAndKashmirSlidesData, HimachalPradeshSlidesData, UttarakhandSlidesData, SikkimSlidesData, WestBengalSlidesData, AssamSlidesData, OdishaSlidesData, TamilNaduSlidesData 
+};

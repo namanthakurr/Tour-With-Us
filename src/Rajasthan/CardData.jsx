@@ -305,9 +305,7 @@ const TamilNaduCardData = [
     description: "A UNESCO World Heritage Site, Mahabalipuram is renowned for its rock-cut temples and sculptures."
   }
 ];
-
-export { RajasthanCardData, GujratCardData, LadakhCardData, JammuAndKashmirCardData, HimachalPradeshCardData, UttarakhandCardData, SikkimCardData, WestBengalCardData, AssamCardData, OdishaCardData, TamilNaduCardData };
-
+ 
 
 
 
@@ -564,4 +562,4 @@ const UttarPradeshCardData = [
 
 
  
-  export { RajasthanCardData, GujratCardData , MPCardData, MaharashtraCardData, DamanCardData, GoaCardData,KeralaCardData , KarnatakaCardData, AndhraPradeshCardData, MeghalayaCardData, UttarPradeshCardData };
+  export { RajasthanCardData, GujratCardData , MPCardData, MaharashtraCardData, DamanCardData, GoaCardData,KeralaCardData , KarnatakaCardData, AndhraPradeshCardData, MeghalayaCardData, UttarPradeshCardData ,LadakhCardData, JammuAndKashmirCardData, HimachalPradeshCardData, UttarakhandCardData, SikkimCardData, WestBengalCardData, AssamCardData, OdishaCardData, TamilNaduCardData  };

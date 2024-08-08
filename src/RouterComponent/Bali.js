@@ -1,5 +1,5 @@
 import React from "react";
-import Balivideo1 from "../video/Balivideo1.mp4";
+// import Balivideo1 from "../video/Balivideo1.mp4";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -116,7 +116,7 @@ function Bali() {
 
       <div>
         <div className="Bali-video">
-          <video src={Balivideo1} autoPlay loop muted className="Bali-v" />
+          {/* <video src={Balivideo1} autoPlay loop muted className="Bali-v" /> */}
         </div>
         <div className="Bali-black-box">
           <div className="Bali-info">
