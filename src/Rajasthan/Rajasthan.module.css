@@ -501,6 +501,287 @@ h1 {
 }
 
 
+.Ladakh_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Ladakh_img/shanti-stupta-leh3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Ladakh_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+
+.JammuKashmir_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/J&K_img/Snow_BG_JK.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.JammuKashmir_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+
+.HimachalPradesh_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/HimachalPradesh_img/Himachal_BG.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.HimachalPradesh_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.Uttarakhand_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/Uttarakhand_img/Uttarakhand_BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Uttarakhand_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.Sikkim_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/Sikkim_img/sikkim-BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Sikkim_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.Odisha_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/Odisha_img/Odisha_BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Odisha_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.Assam_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/Assam_img/assam-BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.Assam_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.WestBengal_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/WestBengal_img/WestBengal_BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.WestBengal_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+.TamilNadu_Cards_Main {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url('/public/images/TamilNadu_img/TamilNadu-BG.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.TamilNadu_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
 .Cities {
   display: flex;
   width: 100%;
@@ -596,6 +877,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;     
   border-radius: 15px;
   transition: all 0.4s;
   font-size: 0px;
@@ -625,9 +907,9 @@ h1 {
   z-index: 1;
 }
 .secondcontent span {
-  position: absolute;
-  left: 28%;
-  top: 15%;
+  position: absolute;     
+  white-space: nowrap; 
+  top: 10%;    
   z-index: 3;
 }
 .secondcontent p {
@@ -691,10 +973,64 @@ h1 {
   .Gujrat_logo2 {
     right: 20%;
   }
-
   .rajasthan_Pattern {
     width: 800px;
   }
+  .Ladakh_Cards_Main{
+    width: 90%;
+  }
+  .Ladakh_logo2 {
+    right: 20%;
+  }
+  .JammuKashmir_Cards_Main {
+    width: 90%;
+  }
+  .JammuKashmir_logo2 {
+    right: 20%;
+  }
+  .HimachalPradesh_Cards_Main {
+    width: 90%;
+  }
+  .HimachalPradesh_logo2 {
+    right: 20%;
+  }
+  .Uttarakhand_Cards_Main {
+    width: 90%;
+  }
+  .Uttarakhand_logo2 {
+    right: 20%;
+  }
+  .Sikkim_Cards_Main {
+    width: 90%;
+  }
+  .Sikkim_logo2 {
+    right: 20%;
+  }
+  .Odisha_Cards_Main {
+    width: 90%;
+  }
+  .Odisha_logo2 {
+    right: 20%;
+  }
+  .Assam_Cards_Main {
+    width: 90%;
+  }
+  .Assam_logo2 {
+    right: 20%;
+  }
+  .WestBengal_Cards_Main {
+    width: 90%;
+  }
+  .WestBengal_logo2 {
+    right: 20%;
+  }
+  .TamilNadu_Cards_Main {
+    width: 90%;
+  }
+  .TamilNadu_logo2 {
+    right: 20%;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -738,11 +1074,57 @@ h1 {
   .Gujrat_logo2 {
     right: 10%;
   }
-
   .rajasthan_Pattern {
     width: 600px;
   }
-
+  .Ladakh_Cards_Main{
+    width: 85%;
+  }
+  .Ladakh_logo2 {
+    right: 10%;
+  }
+  .JammuKashmir_Cards_Main {
+    width: 85%;
+  }
+  .JammuKashmir_logo2 {
+    right: 10%;
+  }
+  .HimachalPradesh_Cards_Main {
+    width: 85%;
+  }
+  .HimachalPradesh_logo2 {
+    right: 10%;
+  }
+  .Sikkim_Cards_Main {
+    width: 85%;
+  }
+  .Sikkim_logo2 {
+    right: 10%;
+  }
+  .Odisha_Cards_Main {
+    width: 85%;
+  }
+  .Odisha_logo2 {
+    right: 10%;
+  }
+  .Assam_Cards_Main {
+    width: 85%;
+  }
+  .Assam_logo2 {
+    right: 10%;
+  }
+  .WestBengal_Cards_Main {
+    width: 85%;
+  }
+  .WestBengal_logo2 {
+    right: 10%;
+  }
+  .TamilNadu_Cards_Main {
+    width: 85%;
+  }
+  .TamilNadu_logo2 {
+    right: 10%;
+  }
   .Cities {
     flex-direction: column;
   }
@@ -793,20 +1175,72 @@ h1 {
   .Gujrat_logo2 {
     right: 5%;
   }
-
   .rajasthan_Pattern {
     width: 400px;
+  }
+  .Ladakh_Cards_Main{
+    width: 80%;
+  }
+  .Ladakh_logo2 {
+    right: 5%;
+  }
+  
+  .JammuKashmir_Cards_Main{
+    width: 80%;
+  }
+  .JammuKashmir_logo2 {
+    right: 5%;
+  }
+  .HimachalPradesh_Cards_Main{
+    width: 80%;
+  }
+  .HimachalPradesh_logo2 {
+    right: 5%;
+  }
+  .Uttarakhand_Cards_Main{
+    width: 80%;
+  }
+  .Uttarakhand_logo2 {
+    right: 5%;
+  }
+  .Sikkim_Cards_Main{
+    width: 80%;
+  }
+  .Sikkim_logo2 {
+    right: 5%;
+  }
+  .Odisha_Cards_Main{
+    width: 80%;
+  }
+  .Odisha_logo2 {
+    right: 5%;
+  }
+  .Assam_Cards_Main{
+    width: 80%;
+  }
+  .Assam_logo2 {
+    right: 5%;
+  }
+  .WestBengal_Cards_Main{
+    width: 80%;
+  }
+  .WestBengal_logo2 {
+    right: 5%;
+  }
+  .TamilNadu_Cards_Main{
+    width: 80%;
+  }
+  .TamilNadu_logo2 {
+    right: 5%;
   }
 
   .card {
     width: 90%;
-    height: 200px;
   }
 }
 
 /* xxxxxxxxxxxxxxxxENDxxxxxxxxxxxxxxxxxx */
 /*-----------------------------CardSlider section  */
-
 /*=============== CARD ===============*/
 a {
   text-decoration: none;
@@ -819,7 +1253,6 @@ a {
   align-items: center;
   height: fit-content;
   position: relative;
-  /* background-color: #407184; */
 }
 
 .card__container {
@@ -829,8 +1262,8 @@ a {
 .card__content {
   margin: 40px auto;
   padding: 20px;
-  width: 90%; /* Increase the width */
-  max-width: 1600px; /* Ensure it doesn't exceed a certain width */
+  width: 90%; 
+  max-width: 1600px; 
   height: fit-content;
   border-radius: 1.25rem;
   overflow: hidden;
@@ -839,7 +1272,8 @@ a {
 .card__article {
   border-radius: 1.25rem;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  min-height: 360px;
 }
 
 .card__image {
@@ -940,10 +1374,16 @@ a {
   }
 }
 
+
 /* For medium devices */
 @media screen and (min-width: 768px) {
   .card__content {
     margin-inline: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card__article {
+    min-height: 460px; 
   }
 }
 

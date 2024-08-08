@@ -16,18 +16,28 @@ import Karnataka from "./Karnataka/Karnataka.jsx"
 import AndhraPradesh from "./AndhraPradesh/AndhraPradesh.jsx";
 import Meghalaya from "./Meghalaya/Meghalaya.jsx";
 import Up from "./Up/Up.jsx";
+import Ladakh from "./North/LadakhSection/Ladakh.jsx";
+import JammuAndKashmir from "./North/Jammu&Kashmir-Section/JammuAndKashmir.jsx";
+import HimachalPradesh from "./North/Himachal Pradesh/HimachalPradesh.jsx";
+import Uttarakhand from "./North/Uttarakhand/Uttarakhand.jsx";
+import SikkimFile from "./East/Sikkim/SikkimFile.jsx";
+import OdishaFile from "./East/Odisha/OdishaFile.jsx";
+import AssamFile from "./East/Assam/AssamFile.jsx";
+import WestBengalFile from "./East/WestBengal/WestBengalFile.jsx";
+import TamilNaduFile from "./Tamil Nadu/TamilNaduFile.jsx";
+
 
 const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
       {
-        path: '/',
-        element: <Home />
+        path: "/",
+        element: <Home />,
       },
       {
-        path: '/rajasthan',
-        element: <Rajasthan />
+        path: "/rajasthan",
+        element: <Rajasthan />,
       },
       {
         path:'/gujrat',
@@ -69,14 +79,49 @@ const router = createBrowserRouter([
         path:'/up',
         element:<Up/>
       },
-    ]
-  }
+      {
+        path: "/ladakh",
+        element: <Ladakh />,
+      },
+      {
+        path: "/JammuAndKashmir",
+        element: <JammuAndKashmir />,
+      },
+      {
+        path: "/Himachal_Pradesh",
+        element: <HimachalPradesh/>,
+      },
+      {
+        path: "/Uttarakhand",
+        element: <Uttarakhand/>,
+      },
+      {
+        path: "/Sikkim",
+        element: <SikkimFile/>,
+      },
+      {
+        path: "/Odisha",
+        element: <OdishaFile/>,
+      },
+      {
+        path: "/Assam",
+        element: <AssamFile/>,
+      },
+      {
+        path: "/WestBengal",
+        element: <WestBengalFile/>,
+      },
+      {
+        path: "/TamilNadu",
+        element: <TamilNaduFile/>,
+      },
+    
+    ],
+  },
 ]);
 
 function App() {
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

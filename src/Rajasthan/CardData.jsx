@@ -54,6 +54,264 @@ const GujratCardData = [
   }
 ];
 
+const LadakhCardData = [
+  {
+    title: "Leh",
+    image: "/images/Ladakh_img/Leh_Lake.jpg",
+    description: "The capital city, Leh, has numerous attractions including Shanti Stupa and a beautiful market."
+  },
+  {
+    title: "Nubra Valley",
+    image: "/images/Ladakh_img/Nubra_Valley.jpg",
+    description: "Home to an alpine cold desert, the 33-meter statue of Jampa, and Bactrian Camels, Nubra Valley is a must-see in Ladakh."
+  },
+  {
+    title: "Zanskar",
+    image: "/images/Ladakh_img/Zanskar.jpg",
+    description: "An offbeat and lesser-visited side of Ladakh, Zanskar is primarily known for its Frozen River Trek."
+  },
+  {
+    title: "Drass",
+    image: "/images/Ladakh_img/Drass.jpg",
+    description: "Called the Gateway to Ladakh, Drass is also known as the second coldest inhabited place in the world."
+  },
+  {
+    title: "Tso Moriri",
+    image: "/images/Ladakh_img/Tso_Moriri.jpg",
+    description: "A serene lake in the Changthang region, surrounded by snow-capped mountains."
+  }
+];
+
+const JammuAndKashmirCardData = [
+  {
+    title: "Srinagar",
+    image: "/images/J&K_img/Srinagar.jpg",
+    description: "A city to get a unique houseboat and shikara ride experience on Dal and Nigeen Lake."
+  },
+  {
+    title: "Gulmarg",
+    image: "/images/J&K_img/Gulmarg.jpg",
+    description: "Gulmarg in Kashmir is a winter wonderland, making it the best skiing destination in India."
+  },
+  {
+    title: "Pahalgam",
+    image: "/images/J&K_img/Pahalgam.jpg",
+    description: "Pahalgam in Kashmir is the starting point of the annual pilgrimage to the cave of Amarnath."
+  },
+  {
+    title: "Sonamarg",
+    image: "/images/J&K_img/Sonamarg.jpg",
+    description: "Sonmarg, which means 'Meadow of Gold', is a picturesque hill station in the Kashmir Valley located in the Indian union territory of Jammu and Kashmir"
+  },
+  {
+    title: "Jammu City",
+    image: "/images/J&K_img/Jammu.jpg",
+    description: "The winter capital, Jammu City is nestled against the backdrop of the Shivalik and Trikuta Ranges."
+  }
+];
+
+const HimachalPradeshCardData = [
+  {
+    title: "Shimla",
+    image: "/images/HimachalPradesh_img/Shimla.jpg",
+    description: "Explore colonial architecture, hang out at The Mall & enjoy the gorgeous views greeting you everywhere. "
+  },
+  {
+    title: "Kullu Manali",
+    image: "/images/HimachalPradesh_img/Manali.jpg",
+    description: "Manali is a top tourist attraction for its tourist sites like Hidimba Devi Temple, Old Manali, bazaar & a rich cultural heritage."
+  },
+  {
+    title: "Dharamshala",
+    image: "/images/HimachalPradesh_img/Dharamshala.jpg",
+    description: "Dharamshalais a beautiful city located in the Kangra Valley, famous for its serene natural beauty and Tibetan culture."
+  },
+  {
+    title: "Kasauli",
+    image: "/images/HimachalPradesh_img/Kasauli.jpg",
+    description: "A quaint town, Kasauli is an attractive mix of picturesque hiking trails, snow-clad mountains and lush landscape"
+  },
+  {
+    title: "Dalhousie",
+    image: "/images/HimachalPradesh_img/Dalhousie.jpg",
+    description: "Dalhousieis a small hill station located in the Chambadistrict of this state, famous for its colonial charm and beautiful natural scenery."
+  }
+];
+
+const UttarakhandCardData = [
+  {
+    title: "Nainital",
+    image: "/images/Uttarakhand_img/Nainital.jpg",
+    description: "Adorned with an eye-shaped lake and rolling green hills, Nainital is a popular destination in Uttarakhand."
+  },
+  {
+    title: "Mussoorie",
+    image: "/images/Uttarakhand_img/Mussoorie.jpg",
+    description: "Called the Queen of the Hills, Mussoorie is one of the most popular tourist destinations in Uttarakhand."
+  },
+  {
+    title: "Haridwar",
+    image: "/images/Uttarakhand_img/Haridwar.jpg",
+    description: "A spiritual destination dotted with numerous Hindu temples, Haridwar is the gateway of Garhwal Region."
+  },
+  {
+    title: "Rishikesh",
+    image: "/images/Uttarakhand_img/Rishikesh.jpg",
+    description: "The Yoga Capital of India, Rishikesh and is a world famous yoga and adventure destination."
+  },
+  {
+    title: "Jim Corbett National Park",
+    image: "/images/Uttarakhand_img/Jim_Corbett.jpg",
+    description: "A famous wildlife sanctuary known for its Bengal tigers and diverse flora and fauna."
+  }
+];
+
+const SikkimCardData = [
+  {
+    title: "Gangtok",
+    image: "/images/Sikkim_img/Gangtok.jpg",
+    description: "It offers a little of everything: culture, nature, entertainment & Tibetan food. Visit monasteries & views of Mt. Khangchendzonga from Tashi View Point"
+  },
+  {
+    title: "Pelling",
+    image: "/images/Sikkim_img/Pelling.jpg",
+    description: "Views of Mt. Khangchendzonga will leave you captivated. Waterfalls, breathtaking views and plenty of adventure opportunities."
+  },
+  {
+    title: "Yuksom",
+    image: "/images/Sikkim_img/Yuksom.jpg",
+    description: "It's the origin of several treks & is blessed with exceptional beauty. You will find the oldest monastery here."
+  },
+  {
+    title: "Namchi",
+    image: "/images/Sikkim_img/Namchi.jpg",
+    description: "Visit Namchi, because it looks like a portrait. Attend the Namchi Mahotsav in October. It’s also home to the 108 feet statue of Lord Shiva & 118 feet statue of Guru Padmasambhava."
+  },
+  {
+    title: "Lachen",
+    image: "/images/Sikkim_img/Lachen.jpg",
+    description: "A small village which is called the twin sister of Lachung, Lachen is situated in North Sikkim. It is the base for Gurudongmar Lake, Chopta Valley and numerous treks."
+  }
+];
+
+const WestBengalCardData = [
+  {
+    title: "Kolkata",
+    image: "/images/WestBengal_img/Kolkata.jpg",
+    description: "The cultural capital of India, Kolkata is famous for its colonial architecture and vibrant festivals."
+  },
+  {
+    title: "Darjeeling",
+    image: "/images/WestBengal_img/Darjeeling.jpg",
+    description: "Known for its tea plantations and panoramic views of the Himalayas, Darjeeling is a popular hill station."
+  },
+  {
+    title: "Sundarbans",
+    image: "/images/WestBengal_img/Sundarbans.jpg",
+    description: "The largest mangrove forest in the world, Sundarbans is home to the Royal Bengal Tigers."
+  },
+  {
+    title: "Kalimpong",
+    image: "/images/WestBengal_img/Kalimpong.jpg",
+    description: "A serene hill station known for its colonial architecture, monasteries, and flower markets."
+  },
+  {
+    title: "Siliguri",
+    image: "/images/WestBengal_img/Siliguri.jpg",
+    description: "Enveloped by the Himalayan mountains amplifying the scenic natural beauty all around, Siliguri is a picture-perfect holiday tourism place in West Bengal."
+  }
+];
+
+const AssamCardData = [
+  {
+    title: "Guwahati",
+    image: "/images/Assam_img/Guwahati.jpg",
+    description: "The largest city in Assam, Guwahati is known for its ancient temples and the mighty Brahmaputra River."
+  },
+  {
+    title: "Kaziranga National Park",
+    image: "/images/Assam_img/Kaziranga.jpg",
+    description: "A UNESCO World Heritage Site, Kaziranga National Park is famous for its population of the one-horned rhinoceros."
+  },
+  {
+    title: "Majuli",
+    image: "/images/Assam_img/Majuli.jpg",
+    description: "The world's largest river island, Majuli is known for its unique culture and scenic beauty."
+  },
+  {
+    title: "Sivasagar",
+    image: "/images/Assam_img/Sivasagar.jpg",
+    description: "A historical city with numerous monuments and relics from the Ahom dynasty."
+  },
+  {
+    title: "Tezpur",
+    image: "/images/Assam_img/Tezpur.jpg",
+    description: "The principal attraction of Tezpur includes its rich history, old temples, forests, and wildlife."
+  }
+];
+
+const OdishaCardData = [
+  {
+    title: "Bhubaneswar",
+    image: "/images/Odisha_img/Bhubaneswar.jpg",
+    description: "The capital city, Bhubaneswar is known for its ancient temples and rich cultural heritage."
+  },
+  {
+    title: "Puri",
+    image: "/images/Odisha_img/Puri.jpg",
+    description: "Famous for the Jagannath Temple and its annual Rath Yatra, Puri is a significant pilgrimage destination."
+  },
+  {
+    title: "Konark",
+    image: "/images/Odisha_img/Konark.jpg",
+    description: "Home to the Sun Temple, a UNESCO World Heritage Site, Konark is a must-visit for its architectural marvel."
+  },
+  {
+    title: "Chilika Lake",
+    image: "/images/Odisha_img/Chilika.jpg",
+    description: "Asia's largest brackish water lagoon, Chilika Lake is a haven for bird watchers and nature lovers."
+  },
+  {
+    title: "Cuttack",
+    image: "/images/Odisha_img/Cuttack.jpg",
+    description: "Known for its silver filigree work and the historic Barabati Fort, Cuttack is a city with rich heritage."
+  }
+];
+
+const TamilNaduCardData = [
+  {
+    title: "Chennai",
+    image: "/images/TamilNadu_img/Chennai.jpg",
+    description: "The capital city, Chennai is known for its beaches, temples, and rich cultural heritage."
+  },
+  {
+    title: "Madurai",
+    image: "/images/TamilNadu_img/Madurai.jpg",
+    description: "Famous for the Meenakshi Amman Temple, Madurai is an ancient city with a vibrant history."
+  },
+  {
+    title: "Ooty",
+    image: "/images/TamilNadu_img/Ooty.jpg",
+    description: "A popular hill station in the Nilgiri Hills, Ooty is known for its tea gardens and picturesque landscapes."
+  },
+  {
+    title: "Kanyakumari",
+    image: "/images/TamilNadu_img/Kanyakumari.jpg",
+    description: "The southernmost tip of India, Kanyakumari is famous for its beautiful sunrise and sunset views."
+  },
+  {
+    title: "Mahabalipuram",
+    image: "/images/TamilNadu_img/Mahabalipuram.jpg",
+    description: "A UNESCO World Heritage Site, Mahabalipuram is renowned for its rock-cut temples and sculptures."
+  }
+];
+
+export { RajasthanCardData, GujratCardData, LadakhCardData, JammuAndKashmirCardData, HimachalPradeshCardData, UttarakhandCardData, SikkimCardData, WestBengalCardData, AssamCardData, OdishaCardData, TamilNaduCardData };
+
+
+
+
+
 const MPCardData = [
   {
     title: "Indore",

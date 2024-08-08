@@ -10,80 +10,80 @@ import { Link } from 'react-router-dom';
 function NAveeeee() {
   return (
     <>
-     
-     <div class="navbar-container">
+
+      <div class="navbar-container">
         <nav>
-            <div class="navbar-links">
-              <Link to="/">
-                <p class="nav-item">Home</p>
-              </Link>
-                <div class="nav-item dropdown">
-                    <p>North</p>
-                    <div class="dropdown-content">
-                        <p>Ladakh</p>
-                        <p>Jammu&Kashmir</p>
-                        <p>Himachal Pradesh</p>
-                        <p>Uttarakhand</p>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <p>West</p>
-                    <div class="dropdown-content">
-                      <Link to='/rajasthan'>
-                        <p>Rajasthan</p>
-                      </Link>
-                      <Link to="/gujrat">
-                        <p>Gujrat</p>
-                      </Link>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <p>Central</p>
-                    <div class="dropdown-content">
+          <div class="navbar-links">
+            <Link to="/">
+              <p class="nav-item">Home</p>
+            </Link>
+            <div class="nav-item dropdown">
+              <p>North</p>
+              <div class="dropdown-content">
+                <Link to='/ladakh'><p>Ladakh</p></Link>
+                <Link to='/JammuAndKashmir'><p>Jammu&Kashmir</p></Link>
+                <Link to='/Himachal_Pradesh'><p>Himachal Pradesh</p></Link>
+                <Link to='/Uttarakhand'><p>Uttarakhand</p></Link>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <p>West</p>
+              <div class="dropdown-content">
+                <Link to='/rajasthan'>
+                  <p>Rajasthan</p>
+                </Link>
+                <Link to="/gujrat">
+                  <p>Gujrat</p>
+                </Link>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <p>Central</p>
+              <div class="dropdown-content">
                       <Link to="/mp">
-                        <p>Madhya pradesh</p>
+                <p>Madhya pradesh</p>
                       </Link>
                       <Link to='/maharashtra'>
-                        <p>Maharshtra</p>
+                <p>Maharshtra</p>
                       </Link>
                       <Link to='daman'>
-                        <p>Daman&Diu</p>
+                <p>Daman&Diu</p>
                       </Link>
-                         
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <p>East</p>
-                    <div class="dropdown-content">
-                    <p>Sikkim</p>
-                        <p>West Bengal</p>
-                        <p>Assam</p>
-                        <p>Odisha</p>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <p>South</p>
-                    <div class="dropdown-content">
+                 
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <p>East</p>
+              <div class="dropdown-content">
+              <Link to='/Sikkim'><p>Sikkim</p></Link>
+              <Link to='/Odisha'><p>Odisha</p></Link>
+              <Link to='/Assam'><p>Assam</p></Link>
+              <Link to='/WestBengal'><p>West Bengal</p></Link>
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <p>South</p>
+              <div class="dropdown-content">
                       <Link to='/goa'>
-                        <p>Goa</p>
+                <p>Goa</p>
                       </Link>
                       <Link to='/karnataka'>
-                        <p>Karnataka</p>
+                <p>Karnataka</p>
                       </Link>
                         <Link to='/keral'> 
-                        <p>Keral</p>
+                <p>Keral</p>
                         </Link>
                         <Link to='/andhra'>
-                        <p>Andhra Pradesh</p>
+                <p>Andhra Pradesh</p>
                         </Link>
-                        
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
 
-    
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+
     </>
   );
 }
