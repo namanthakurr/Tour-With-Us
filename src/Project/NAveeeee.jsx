@@ -40,10 +40,16 @@ function NAveeeee() {
                 <div class="nav-item dropdown">
                     <p>Central</p>
                     <div class="dropdown-content">
+                      <Link to="/mp">
                         <p>Madhya pradesh</p>
+                      </Link>
+                      <Link to='/maharashtra'>
                         <p>Maharshtra</p>
+                      </Link>
+                      <Link to='daman'>
                         <p>Daman&Diu</p>
-                        <p>Odisha</p>
+                      </Link>
+                         
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -58,10 +64,18 @@ function NAveeeee() {
                 <div class="nav-item dropdown">
                     <p>South</p>
                     <div class="dropdown-content">
+                      <Link to='/goa'>
                         <p>Goa</p>
+                      </Link>
+                      <Link to='/karnataka'>
                         <p>Karnataka</p>
+                      </Link>
+                        <Link to='/keral'> 
                         <p>Keral</p>
+                        </Link>
+                        <Link to='/andhra'>
                         <p>Andhra Pradesh</p>
+                        </Link>
                         
                     </div>
                 </div>

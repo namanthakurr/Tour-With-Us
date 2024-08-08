@@ -40,25 +40,24 @@ function  Gujrat() {
             <div className={styles.home}>
                 <div className={styles.overlay}></div>
                 <video muted loop autoPlay className={styles.video} >
-                    <source src="/videos/rajasthan-video.mp4" type="video/mp4"  />
+                    <source src="/videos/gujarat.mp4" type="video/mp4"  />
                 </video>
                 <div className={styles.homeContent}>
-                    <h1>Rajasthan</h1>
-                    <p>- Lands of Kings</p>
+                    <h1>Gujarat</h1>
+                    <p>- Land of Legends</p>
                 </div>
             </div>
             <center>
                 <div className={styles.description}>
                     <div className={styles.logoAndText}>
                         <div className={styles.logoImg}>
-                            <img src="/images/Rajasthan_img/RajasthanTourismLogoPng.png" alt="Rajasthan-Tourism-Logo" />
+                            <img src="/images/Rajasthan_img/Gujrat-symbol.jpg" alt="Gujarat-Symbol" />
                         </div>
                         <div className={styles.text} ref={description}>
-                            <h1 className={styles.mainHeading}>About Rajasthan Tourism</h1>
+                            <h1 className={styles.mainHeading}>About Gujarat Tourism</h1>
                             <hr className={styles.gradientLine} />
                             <p>
-                                Rajasthan, the Land of Kings is synonymous to heroism, royalty and honour. Historic tales of battles fought and romance of the riches adorn the walls of the state. Established in the era marked with wartime ballads yet living in the modern period, this beautiful region is a travellers' destination. Those looking out for the remnants of the past should not pass up a trip to Rajasthan. For wanderers interested in adventures at the various landscapes should definitely get a glimpse of this venturesome state. And for the ones who plan to have a quiet sojourn gazing at the beauty of the golden sand dunes, Rajasthan tops your list. This land is a colourful melange of massive forts, stunning palaces, diverse cultures, delectable cuisines and warm people, set amidst a rugged yet inviting landscape. Come, explore the miscellany of the old and the new in Rajasthan, a glittering jewel of India.
-                            </p>
+                            Gujarat, the Jewel of the West, is a vibrant tapestry of history, culture, and tradition. Renowned for its entrepreneurial spirit and rich heritage, this state offers a unique blend of the ancient and the contemporary. From the intricate carvings of the Sun Temple at Modhera to the bustling markets of Ahmedabad, Gujarat's architectural marvels narrate tales of a glorious past. The legends of Gujarat, such as the valor of Sardar Vallabhbhai Patel and the spiritual teachings of Mahatma Gandhi, add a profound depth to its history. Travelers seeking spiritual solace can find peace at the tranquil Sabarmati Ashram, while adventure enthusiasts can explore the vast expanses of the Rann of Kutch. Food lovers will delight in the state’s diverse and delectable cuisine, from the tangy Dhokla to the sweet Puran Poli. The warmth of the people and the vibrancy of its festivals, like Navratri, add to the state’s charm. Come, discover the essence of Gujarat, where every corner tells a story and every visit is an unforgettable experience.                            </p>
                             {!isExpanded && (
                                 <button className={styles.expand} {...getToggleProps()}>
                                     Read More <FontAwesomeIcon icon={faChevronDown} style={{ fontSize: '0.8em' }} />
@@ -66,8 +65,7 @@ function  Gujrat() {
                             )}
                             <section {...getCollapseProps()}>
                                 <p>
-                                    It is a land that has inspired lot of people. Come tread on the sands of time. In Rajasthan you will find every hue in Nature's grand palette - the red sands, the blue of royalty, the pink cities or the amber sunsets. Surrender yourself to the sounds of trinkets or the sounds of the all conquering wind. Sight and sounds that are far removed from any city. Sights and sounds that will transport you into a folk lore. Music, art and dance is woven into every inch of this land of paradise. Come, walk into the unforgettable embrace of Rajasthan.
-                                </p>
+                                Gujarat is a land that has inspired countless souls with its rich heritage and dynamic spirit. Walk through the sands of time and experience the diverse hues of Gujarat's natural and cultural landscape. From the white expanse of the Rann of Kutch to the verdant Gir Forest, where the majestic Asiatic lions roam, and the vibrant street art of Vadodara. Listen to the melodic rhythms of traditional Garba or the serene sounds of the Arabian Sea waves. The sights and sounds here are unlike any other, immersing you in stories of old and new. Every inch of this paradise is alive with music, art, and dance. Come, step into the unforgettable embrace of Gujarat.                                </p>
                             </section>
                             {isExpanded && (
                                 <button className={styles.expand} {...getToggleProps()}>
@@ -80,7 +78,7 @@ function  Gujrat() {
             </center>
             <CardsGujrat/>
             <GujratCardSlider
-                title="Best Selling Rajasthan Tour Packages"
+                title="Best Selling Gujarat Tour Packages"
                 slides={GujratSlidesData}
             />
         </>

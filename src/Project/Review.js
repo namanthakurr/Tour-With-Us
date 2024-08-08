@@ -32,7 +32,7 @@ function Review() {
               openCity(event, "London");
             }}
           >
-            <img src="yourstory.jpg" style={{ width: "100px" }} alt="" />
+            <img src="/images/yourstory.jpg" style={{ width: "100px" }} alt="" />
           </button>
           <button
             class="tablinks"
@@ -40,7 +40,7 @@ function Review() {
               openCity(event, "Paris");
             }}
           >
-            <img src="thehindu.jpg" style={{ width: "100px" }} alt="" />
+            <img src="/images/thehindu.jpg" style={{ width: "100px" }} alt="" />
           </button>
           <button
             class="tablinks"
@@ -48,7 +48,7 @@ function Review() {
               openCity(event, "Tokyo");
             }}
           >
-            <img src="NASCOM.png" style={{ width: "100px" }} alt="" />
+            <img src="/images/NASCOM.png" style={{ width: "100px" }} alt="" />
           </button>
           <button
             class="tablinks"
@@ -56,7 +56,7 @@ function Review() {
               openCity(event, "to");
             }}
           >
-            <img src="TCT.png" style={{ width: "100px" }} alt="" />
+            <img src="/images/TCT.png" style={{ width: "100px" }} alt="" />
           </button>
           <button
             class="tablinks"
@@ -64,13 +64,13 @@ function Review() {
               openCity(event, "yo");
             }}
           >
-            <img src="TOI.jpg" style={{ width: "100px" }} alt="" />
+            <img src="/images/TOI.jpg" style={{ width: "100px" }} alt="" />
           </button>
         </div>
 
         <div id="London" class="tabcontent">
           <h3>
-            “VermaTravels is also carving a niche for itself in this space and
+            “Tour-With-Us is also carving a niche for itself in this space and
             intends to become one-stop shop for personalised vacation”
           </h3>
           <p>YourStory Jun 08, 2019 Read more on Yourstory</p>
@@ -79,21 +79,21 @@ function Review() {
         <div id="Paris" class="tabcontent">
           <h3>
             With offbeat experiences and a platter-full of trending
-            destinations, VermaTravels is helping change the way people travel”
+            destinations, Tour-With-Us is helping change the way people travel”
           </h3>
           <p>The Hindu Apr 22, 2019 Read more on The Hindu</p>
         </div>
 
         <div id="to" class="tabcontent">
           <h3>
-            “Tailor made to suit the needs of the travellers, VermaTravels
+            “Tailor made to suit the needs of the travellers,Tour-With-Us
             offers a much-needed respite from the packaged tours”
           </h3>
           <p>Nasscom May 30, 2019 Read more on Nasscom</p>
         </div>
         <div id="Tokyo" class="tabcontent">
           <h3>
-            “VermaTravels uses its unique matching algorithms and price
+            “Tour-With-Us uses its unique matching algorithms and price
             comparison engine to help travellers create customised tour packages
             at competitive online prices.”
           </h3>
@@ -101,7 +101,7 @@ function Review() {
         </div>
         <div id="yo" class="tabcontent">
           <h3>
-            “VermaTravels has helped book international vacations for over
+            “Tour-With-Us has helped book international vacations for over
             10,000 travelers since 2014”
           </h3>
           <p>

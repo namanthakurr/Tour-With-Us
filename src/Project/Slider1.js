@@ -47,7 +47,7 @@ function Slider1() {
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
-          <Link to="/">
+          <Link to="/meghalaya">
             <img
               src="meghalaya.jpg"
               alt="coming soon..."
@@ -97,7 +97,7 @@ function Slider1() {
           </Link>
         </SwiperSlide>
         <SwiperSlide style={{ height: "280px", width: "280px" }}>
-          <Link to="/">
+          <Link to="/up">
             <img
               src="up.jpg"
               alt="coming soon..."

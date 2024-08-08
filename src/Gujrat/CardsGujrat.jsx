@@ -7,13 +7,11 @@ function Cards_Gujrat() {
   return (
     <div className="container">
       <center>
-        <section className={styles.Cards_Main}>
-          <div className={styles.rajasthan_logo2}>
-            <img src="/images/Rajasthan_img/Rajasthan_Logo2.png" alt="Rajasthan-Logo2" />
+        <section className={styles.Cards_Main_Gujrat}>
+          <div className={styles.Gujrat_logo2}>
+            <img src="/images/Rajasthan_img/gujratlogo.jpg" alt="Rajasthan-Logo2" />
           </div>
-          <div className={styles.rajasthan_Pattern}>
-            <img src="/images/Rajasthan_img/Rajasthan-Petterns.png" alt="Rajasthan-Pattern" />
-          </div>
+          
           <FlipCardsSection cards={GujratCardData} />
         </section>
       </center>

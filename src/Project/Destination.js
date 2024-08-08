@@ -68,7 +68,7 @@ function Destination() {
                 src="lucknow.jpg"
                 alt="coming soon..."
                 style={{
-                  width: "342px",
+                  width: "400px",
                   height: "469px",
                   borderRadius: "20px",
                 }}

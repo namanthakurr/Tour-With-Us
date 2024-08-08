@@ -228,6 +228,246 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.Cards_Main_Gujrat {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Gujrata.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_MP {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/Tiger.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Maharashtra {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/marine.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Daman {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/Dammu.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Goa  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/Goa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Keral  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/Keral.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Karnataka  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/karnataka.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Andhra  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/Andhra.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Meghalaya  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/meghalya.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+.Cards_Main_Up  {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background: rgb(255, 208, 146);
+  background: linear-gradient(
+    315deg,
+    rgba(255, 208, 146, 1) 14%,
+    rgba(254, 254, 227, 1) 100%
+  );
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-image: url("/public/images/Rajasthan_img/up.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
 
 .rajasthan_Pattern {
   position: absolute;
@@ -254,6 +494,12 @@ h1 {
   right: 33%;
   z-index: 2;
 }
+.Gujrat_logo2 {
+  position: relative;
+  right: 33%;
+  z-index: 2;
+}
+
 
 .Cities {
   display: flex;
@@ -408,8 +654,41 @@ h1 {
   .Cards_Main {
     width: 90%;
   }
+  .Cards_Main_Gujrat {
+    width: 90%;
+  }
+  .Cards_Main_MP {
+    width: 90%;
+  }
+  .Cards_Main_Up {
+    width: 90%;
+  }
+  .Cards_Main_Maharashtra {
+    width: 90%;
+  }
+  .Cards_Main_Daman {
+    width: 90%;
+  }
+  .Cards_Main_Goa {
+    width: 90%;
+  }
+  .Cards_Main_Keral {
+    width: 90%;
+  }
+  .Cards_Main_Karnataka {
+    width: 90%;
+  }
+  .Cards_Main_Andhra {
+    width: 90%;
+  }
+  .Cards_Main_Meghalaya {
+    width: 90%;
+  }
 
   .rajasthan_logo2 {
+    right: 20%;
+  }
+  .Gujrat_logo2 {
     right: 20%;
   }
 
@@ -422,8 +701,41 @@ h1 {
   .Cards_Main {
     width: 85%;
   }
+  .Cards_Main_Gujrat {
+    width: 85%;
+  }
+  .Cards_Main_MP {
+    width: 85%;
+  }
+  .Cards_Main_Up {
+    width: 85%;
+  }
+  .Cards_Main_Maharashtra {
+    width: 85%;
+  }
+  .Cards_Main_Daman{
+    width: 85%;
+  }
+  .Cards_Main_Goa {
+    width: 85%;
+  }
+  .Cards_Main_Keral {
+    width: 85%;
+  }
+  .Cards_Main_Karnataka {
+    width: 85%;
+  }
+  .Cards_Main_Andhra {
+    width: 85%;
+  }
+  .Cards_Main_Meghalaya {
+    width: 85%;
+  }
 
   .rajasthan_logo2 {
+    right: 10%;
+  }
+  .Gujrat_logo2 {
     right: 10%;
   }
 
@@ -444,8 +756,41 @@ h1 {
   .Cards_Main {
     width: 80%;
   }
+  .Cards_Main_Gujrat {
+    width: 80%;
+  }
+  .Cards_Main_MP {
+    width: 80%;
+  }
+  .Cards_Main_Up {
+    width: 80%;
+  }
+  .Cards_Main_Daman {
+    width: 80%;
+  }
+  .Cards_Main_Goa {
+    width: 80%;
+  }
+  .Cards_Main_Keral {
+    width: 80%;
+  }
+  .Cards_Main_Karnataka {
+    width: 80%;
+  }
+  .Cards_Main_Andhra {
+    width: 80%;
+  }
+  .Cards_Main_Meghalaya {
+    width: 80%;
+  }
+  .Cards_Main_Maharashtra {
+    width: 80%;
+  }
 
   .rajasthan_logo2 {
+    right: 5%;
+  }
+  .Gujrat_logo2 {
     right: 5%;
   }
 
@@ -519,10 +864,23 @@ a {
 }
 
 .card__name {
-  font-size: 20px;
+  font-size: 22px;
   color: var(--second-color);
   margin-bottom: 0.75rem;
+  font-family: 'Georgia', serif;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.25rem;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
+
+.card__name:hover {
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
+}
+
 
 .card__description {
   font-weight: 500;
