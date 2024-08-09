@@ -51,18 +51,6 @@ h1 {
   margin-top: 12px;
 }
 
-.homeContent button {
-  display: block;
-  font-size: clamp(14px, 1.5vw, 18px);
-  border: 1px solid #f1f1f1;
-  border-radius: 5px;
-  background: transparent;
-  color: #fff;
-  margin: 50px auto 0;
-  padding: 12px 20px;
-  cursor: pointer;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -1365,6 +1353,52 @@ a {
 .swiperPagination-bullet-active {
   background-color: rgb(212, 61, 61);
 }
+
+/* --------------Button for Book the Tour ------------ */
+.BookTour button {
+  --color: #ff5500;
+  font-family: inherit;
+  display: inline-block;
+  width: 15em; 
+  height: 3em; 
+  line-height: 3em; 
+  overflow: hidden;
+  cursor: pointer;
+  margin: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+.BookTour button::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 600px;
+  height: 500px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.BookTour button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.BookTour button:before {
+  top: 100%;
+  left: 100%;
+  transition: 0.3s all;
+}
+
+.BookTour button:hover::before {
+  top: -80px;
+  left: -80px;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */

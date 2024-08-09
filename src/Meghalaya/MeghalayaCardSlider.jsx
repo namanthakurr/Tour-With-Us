@@ -75,13 +75,13 @@ const MeghalayaCardSlider = ({ title, slides }) => {
                 <p className={styles.card__description}>
                   {slide.description}
                 </p>
-                {/* <a href={slide.link} className={styles.card__button}>
-                  View More
-                </a> */}
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className={styles.BookTour}>
+          <button>Explore Now</button>
+        </div>
       </section>
     </div>
   );

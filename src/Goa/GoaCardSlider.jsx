@@ -82,6 +82,9 @@ const GoaCardSlider = ({ title, slides }) => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className={styles.BookTour}>
+          <button>Explore Now</button>
+        </div>
       </section>
     </div>
   );
