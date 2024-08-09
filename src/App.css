@@ -1,4 +1,5 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 /* --------------------------------------------------------------------- */ 
                                       /*Video  */
 /* --------------------------------------------------------------------- */
@@ -84,8 +85,6 @@
  /* navbaar css */
  .video-container {
   width: 100%;
- 
-   
   text-align: center;
 }
 
@@ -105,12 +104,13 @@
   }
 
   .text-overlay {
-    top: 98%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 90%; /* Adjust width for smaller screens */
     padding: 10px;
+    position: absolute;
   }
 
   .overlay-text {
@@ -136,6 +136,7 @@
   .video-container {
     width: 100%;
     text-align: center;
+    position: relative;
   }
 
   .video0 {
@@ -153,12 +154,13 @@
   }
 
   .text-overlay {
-    top: 98%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     width: 90%; /* Adjust width for smaller screens */
     padding: 10px;
+    position: absolute;
   }
 
   .overlay-text {
@@ -184,6 +186,7 @@
   .video-container {
     width: 100%;
     text-align: center;
+    position: relative;
   }
 
   .video0 {
@@ -201,11 +204,16 @@
 /* -------------------------------------------------------------------------- */
                                         /*Navbar  */
 /* -------------------------------------------------------------------------- */
+
+.tourlogo{
+width: 150px;
+height: 80px;
+}
 .navbar-container {
   background-color: #333;
   padding: 10px 0;
   margin-bottom: 10px;
- 
+  
 }
 
 .navbar-links {
@@ -221,8 +229,8 @@
   padding: 10px 15px;
   position: relative;
   transition: background-color 0.3s, color 0.3s;
+ 
 }
-
 .nav-item:hover {
   background-color: #575757;
   color: #fff;
@@ -239,7 +247,7 @@
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 5;
-  top: 40px;  /* Ensures dropdown appears below the nav item */
+  top: 40px;
 }
 
 .dropdown-content p {
@@ -258,26 +266,66 @@
   display: block;
 }
 
+.hamburger {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 10px 15px;
+}
+
+
+.signup-buttonn {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border: none;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  /* padding: 10px 20px; */
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, transform 0.2s;
+
+}
+
+.signup-buttonn:hover {
+  background: linear-gradient(135deg, #feb47b, #ff7e5f);
+  transform: scale(1.05);
+}
+
+
 @media (max-width: 768px) {
-  .navbar {
-      flex-direction: column;
-      align-items: center;
+
+ 
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .navbar-links {
-      flex-direction: column;
-      gap: 10px;
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
   }
 
   .dropdown-content {
-      position: absolute;
-      box-shadow: none;
+    position: static;
+    box-shadow: none;
   }
+
   .dropdown-content p:hover {
-  background-color: #777;
+    background-color: #777;
+  }
 }
 
-}
 
  
 
